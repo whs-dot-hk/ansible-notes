@@ -1,4 +1,5 @@
 # Install packer
+https://www.packer.io/downloads
 ```sh
 cat <<EOF > install_packer.yaml
 - name: Installer
@@ -17,6 +18,7 @@ ansible-playbook -ilocalhost, -clocal -eversion=1.8.1 install_packer.yaml -K
 ```
 
 # Install terraform
+https://www.terraform.io/downloads
 ```sh
 cat <<EOF > install_terraform.yaml
 - name: Installer
